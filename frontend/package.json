@@ -1,0 +1,22 @@
+{
+  "name": "nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3001",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.12",
+    "next": "10.x",
+    "node-fetch": "^2.6.1",
+    "react": "17.x",
+    "react-dom": "17.x",
+    "validator": "^13.6.0"
+  }
+}
